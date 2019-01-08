@@ -1,0 +1,6 @@
+kinesalite:
+  image: ingtk/docker-kinesalite
+  ports:
+    - "24567:4567"
+  environment:
+    - AWS_REGION=ap-northeast-1
